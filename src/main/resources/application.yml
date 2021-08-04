@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tlt?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    username: root
+    password: tw900516
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis:
+  type-aliases-package: com.example.tlt.entity
+  mapper-locations: classpath:Mapper/*.xml
+
+
+
+logging:
+  level:
+    com.example.tlt.mapper: debug
