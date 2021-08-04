@@ -4,6 +4,9 @@
 * Mysql8.0(sql文件在source中的db文件夹)
 * Springboot 2.5.3
 
+---
+# 加密
+AES加密
 
 ---
 # 增删改查
